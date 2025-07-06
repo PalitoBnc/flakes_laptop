@@ -34,10 +34,10 @@ config.background = {
 	},
 }
 --]]
-config.window_background_opacity = 0.77
+config.window_background_opacity = 0.57
 
 ------- Tab Bar ------
-config.enable_tab_bar = false
+config.enable_tab_bar = false 
 
 config.window_frame = {
 	font = wezterm.font({ family = "JetBrains Mono", weight = "Bold" }),

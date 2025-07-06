@@ -6,8 +6,10 @@
 	];
 
   # Bootloader.
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
+	boot.loader = {
+		systemd-boot.enable = true;
+		efi.canTouchEfiVariables = true;
+	};
 
   networking = {
 		hostName = "nixos"; # Define your hostname.
@@ -100,7 +102,6 @@
       ];
     };
 
-		/* # Descomentar pra ter prompt do terminal bonitinho
     # Starship
     starship = {
       enable = true;
@@ -108,8 +109,8 @@
         add_newline = true;
         # "$schema" = "https://starship.rs/config-schema.json";
         character = {
-          success_symbol = "[❯](bold green)";
-          error_symbol = "[❯](bold bright green)";
+          success_symbol = "[$](bold green)";
+          error_symbol = "[$](green)";
         };
         nix_shell = {
           symbol = " ";
@@ -120,11 +121,10 @@
           style_user = "green bold";
           style_root = "bright-red bold";
         };
-        os.disabled = false;
+        os.disabled = true;
         # palette = "catppuccin_${"mocha"}";
       };
     };
-		*/
 
   };
 
@@ -165,7 +165,7 @@
     #Other
     cava
     jetbrains-mono # Best font for programming
-    # obsidian # Note taking app
+    obsidian # Note taking app
 
 		# Gnome stuff
 		gnome-extension-manager
@@ -177,6 +177,6 @@
   # this value at the release version of the first install of this system.
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
-  system.stateVersion = "24.11"; # Did you read the comment?
+  system.stateVersion = "25.05"; # Did you read the comment?
 
 }
