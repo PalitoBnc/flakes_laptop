@@ -140,13 +140,19 @@
     zip
     unzip
 
+		#>>Clippboard for vim
+		(vim_configurable.override{
+			gui = "x11";
+			clipboard = true;
+		})
+
     #CLI -> Pretty and shiny :D
     bat
     tree
     eza
     neofetch
 
-    #Image stuff
+    #Image/Video stuff
     # pix # Image viewer/editor. Pretty cool
     # rawtherapee # FOSS similar to adobe lightroom
     # krita # Drawing stuff
