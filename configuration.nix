@@ -180,6 +180,7 @@
 		# >> Gnome Extensions
 	++ (with pkgs.gnomeExtensions; [
         caffeine
+				dash-to-dock
         clipboard-indicator
       ]);
 	
