@@ -168,6 +168,7 @@
 
 		# Gnome stuff
 		gnome-extension-manager
+		gnome-tweaks
   ];
 
 
