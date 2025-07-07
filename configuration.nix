@@ -175,6 +175,9 @@
 		# Gnome stuff
 		gnome-extension-manager
 		gnome-tweaks
+
+		# >> Gnome Extensions
+		pkgs.gnomeExtensions.caffeine
   ];
 
 
