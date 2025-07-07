@@ -175,12 +175,14 @@
 		# Gnome stuff
 		gnome-extension-manager
 		gnome-tweaks
-
+  
+	]
 		# >> Gnome Extensions
-		pkgs.gnomeExtensions.caffeine
-  ];
-
-
+	++ (with pkgs.gnomeExtensions; [
+        caffeine
+        clipboard-indicator
+      ]);
+	
 	environment.localBinInPath = true;
 
   # This value determines the NixOS release from which the default
