@@ -140,11 +140,11 @@
     zip
     unzip
 
-		#>>Clippboard for vim
-		(vim_configurable.override{
-			gui = "x11";
-			clipboard = true;
-		})
+		#>>Clippboard for vim >> ERROR! 
+		#(vim_configurable.override{
+		#	gui = "x11";
+		#	clipboard = true;
+		#})
 
     #CLI -> Pretty and shiny :D
     bat
