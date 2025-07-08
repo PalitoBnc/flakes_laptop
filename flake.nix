@@ -3,7 +3,7 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
-		nixpkgs.url = "github:PalitoBnc/nixvim";
+		nixvim.url = "github:PalitoBnc/nixvim";
   };
 
   outputs = { self, nixpkgs, ... }@inputs: 
