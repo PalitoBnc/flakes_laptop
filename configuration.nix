@@ -185,6 +185,7 @@
 		pkgs.gnomeExtensions.gsconnect
 		pkgs.gnomeExtensions.hide-top-bar
 		pkgs.gnomeExtensions.vitals
+		pkgs.gnomeExtensions.just-perfection
 	];
 	
 	environment.localBinInPath = true;
