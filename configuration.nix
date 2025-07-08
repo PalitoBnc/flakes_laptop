@@ -140,12 +140,6 @@
     zip
     unzip
 
-		#>>Clippboard for vim >> ERROR! 
-		#(vim_configurable.override{
-		#	gui = "x11";
-		#	clipboard = true;
-		#})
-
     #CLI -> Pretty and shiny :D
     bat
     tree
@@ -171,6 +165,7 @@
     cava
     jetbrains-mono # Best font for programming
     obsidian # Note taking app
+		variety #Wallpaper manager
 
 		# Gnome stuff
 		gnome-extension-manager
