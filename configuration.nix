@@ -180,6 +180,7 @@
 		pkgs.gnomeExtensions.hide-top-bar
 		pkgs.gnomeExtensions.vitals
 		pkgs.gnomeExtensions.just-perfection
+		gnomeExtensions.wallpaper-slideshow
 	];
 	
 	environment.localBinInPath = true;
