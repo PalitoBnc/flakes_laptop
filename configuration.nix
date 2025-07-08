@@ -165,7 +165,6 @@
     cava
     jetbrains-mono # Best font for programming
     obsidian # Note taking app
-		variety #Wallpaper manager
 
 		# Gnome stuff
 		gnome-extension-manager
