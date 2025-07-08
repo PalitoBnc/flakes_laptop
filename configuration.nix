@@ -181,6 +181,10 @@
 		pkgs.gnomeExtensions.caffeine
 		pkgs.gnomeExtensions.clipboard-indicator
 		pkgs.gnomeExtensions.blur-my-shell
+		pkgs.gnomeExtensions.burn-my-windows
+		pkgs.gnomeExtensions.gsconnect
+		pkgs.gnomeExtensions.hide-top-bar
+		pkgs.gnomeExtensions.vitals
 	];
 	
 	environment.localBinInPath = true;
