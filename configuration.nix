@@ -175,14 +175,13 @@
 		# Gnome stuff
 		gnome-extension-manager
 		gnome-tweaks
-  
-	]
+
 		# >> Gnome Extensions
-	++ (with pkgs.gnomeExtensions; [
-        caffeine
-				dash-to-dock
-        clipboard-indicator
-      ]);
+		pkgs.gnomeExtensions.dash-to-dock
+		pkgs.gnomeExtensions.caffeine
+		pkgs.gnomeExtensions.clipboard-indicator
+		pkgs.gnomeExtensions.blur-my-shell
+	];
 	
 	environment.localBinInPath = true;
 
