@@ -134,6 +134,7 @@
 
     #CLI -> Essential
     vim
+		inputs.nixvim.packages.${pkgs.system}.default #neovim
     git
     wezterm
     fzf
