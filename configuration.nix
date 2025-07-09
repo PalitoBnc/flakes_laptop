@@ -133,7 +133,7 @@
 	environment.systemPackages = with pkgs; [
 
     #CLI -> Essential
-    vim
+    vim-full #Complete package of vim
 		inputs.nixvim.packages.${pkgs.system}.default #neovim
     git
     wezterm
