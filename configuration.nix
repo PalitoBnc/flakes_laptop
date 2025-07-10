@@ -11,6 +11,9 @@
 		efi.canTouchEfiVariables = true;
 	};
 
+	#>> Fix touchpad
+	boot.kernelParams = [ "psmouse.synaptics_intertouch=0" ];
+
   networking = {
 		hostName = "nixos"; # Define your hostname.
 		networkmanager.enable = true;
