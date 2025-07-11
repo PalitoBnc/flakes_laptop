@@ -136,6 +136,7 @@
     vim-full #Complete package of vim
 		inputs.nixvim.packages.${pkgs.system}.default #neovim
     git
+		git-lfs #Git LFS
     wezterm
     fzf
     zip
