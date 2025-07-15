@@ -191,6 +191,7 @@
 		pkgs.gnomeExtensions.vitals
 		pkgs.gnomeExtensions.just-perfection
 		gnomeExtensions.wallpaper-slideshow
+		gnomeExtensions.desktop-icons-ng-ding
 	];
 	
 	environment.localBinInPath = true;
