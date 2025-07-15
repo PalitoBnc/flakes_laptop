@@ -14,8 +14,8 @@
 
 "Visibility
 syntax on
-let &number = 1
-let &relativenumber = 1
+let &number = 0
+let &relativenumber = 0
 let &wrap = 1
 
 "Indentation
@@ -62,6 +62,12 @@ nnoremap <C-t> :vs t<CR>:terminal<CR><C-w><C-w>:q!<CR>
 
 "Auto indent text
 nnoremap <C-o> :normal gg=G<CR>
+
+"Shift-tab:
+"For command/normal mode
+nnoremap <S-Tab> <<
+"For insert mode
+inoremap <S-Tab> <C-d>
 
 "Other
 inoremap jk <esc>

@@ -12,3 +12,8 @@
 
 # to cache token:   git config --global credential.helper cache
 # to uncache token: git config --global --unset credential.helper
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process

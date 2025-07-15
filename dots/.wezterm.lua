@@ -8,7 +8,27 @@ local config = wezterm.config_builder()
 --config.color_scheme = 'Sweet Terminal (Gogh)'
 --config.color_scheme = 'Catppuccin Mocha (Gogh)'
 --config.color_scheme = 'Mariana'
-config.color_scheme = "ChallengerDeep"
+--config.color_scheme = "ChallengerDeep"
+
+--config.color_scheme = 'Abernathy'
+--config.color_scheme = 'Builtin Dark'
+--config.color_scheme = 'CGA'
+--config.color_scheme = 'Dark Pastel'
+--config.color_scheme = 'Elementary (Gogh)'
+--config.color_scheme = 'Firefly Traditional'
+--config.color_scheme = 'Gnometerm (terminal.sexy)'
+--config.color_scheme = 'iTerm2 Dark Background'
+--config.color_scheme = 'Konsolas'
+--config.color_scheme = 'Liquid Carbon Transparent (Gogh)'
+--config.color_scheme = 'Monokai Vivid'
+--config.color_scheme = 'NightLion v1'
+--config.color_scheme = 'Orangish (terminal.sexy)'
+--config.color_scheme = 'Pro'  
+--config.color_scheme = 'Symfonic'
+--config.color_scheme = 'Tomorrow Night Bright'
+--config.color_scheme = 'UltraDark'
+config.color_scheme = 'VibrantInk'
+--config.color_scheme = 'Windows NT (base16)'
 config.font = wezterm.font("JetBrains Mono")
 config.text_background_opacity = 1
 config.initial_rows = 26
@@ -34,7 +54,7 @@ config.background = {
 	},
 }
 --]]
-config.window_background_opacity = 0.57
+config.window_background_opacity = 0.50
 
 ------- Tab Bar ------
 config.enable_tab_bar = false 
@@ -50,6 +70,9 @@ config.colors = {
 		inactive_tab_edge = "#744fb3",
 	},
 }
+
+-- Fixing gnome title bar problem:
+config.enable_wayland = false
 
 ------ Startup -------
 config.default_prog = { "bash" }
