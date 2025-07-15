@@ -153,6 +153,13 @@
     # rawtherapee # FOSS similar to adobe lightroom
     # krita # Drawing stuff
     vlc
+		(pkgs.wrapOBS {
+    	plugins = with pkgs.obs-studio-plugins; [
+      	wlrobs
+      	obs-backgroundremoval
+      	obs-pipewire-audio-capture
+    	];
+  	})
 
     #Nonfree entertainment
     stremio
