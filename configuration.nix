@@ -127,6 +127,12 @@
 
   };
 
+	#Enable GSConnect
+	programs.kdeconnect = {
+		enable = true;
+		package = pkgs.gnomeExtensions.gsconnect;
+	};
+
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
