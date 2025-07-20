@@ -172,6 +172,9 @@
     discord
     spotify
 
+		# >> Games
+		prismlauncher
+
     #Hardware/Libs
     gparted
     fan2go
