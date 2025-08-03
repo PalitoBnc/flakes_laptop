@@ -144,6 +144,7 @@
     git
 		git-lfs #Git LFS
     wezterm
+		tmux #tumx
     fzf
     zip
     unzip
@@ -153,6 +154,10 @@
     tree
     eza
     neofetch
+
+		#Compilers
+		jdk23
+		gcc
 
     #Image/Video stuff
     # pix # Image viewer/editor. Pretty cool
