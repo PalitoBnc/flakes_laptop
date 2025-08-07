@@ -140,7 +140,8 @@
 
     #CLI -> Essential
     vim-full #Complete package of vim
-		inputs.nixvim.packages.${pkgs.system}.default #neovim
+		# inputs.nixvim.packages.${pkgs.system}.default #neovim -> nixvim
+		neovim
     git
 		git-lfs #Git LFS
     wezterm
