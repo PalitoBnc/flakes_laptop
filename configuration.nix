@@ -190,6 +190,8 @@
     jetbrains-mono # Best font for programming
     obsidian # Note taking app
 		libreoffice # libreoffice
+		logisim
+		logisim-evolution
 
 		# Gnome stuff
 		gnome-extension-manager
